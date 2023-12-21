@@ -1,3 +1,8 @@
 integrate the polyzone and roi files in final_mix file
 integrate with sirs code of custom greetings
 make a gui for this
+
+
+how to run:
+run the polyzone file first to select the roi and get the coords
+put the coords in that roi.py file 
