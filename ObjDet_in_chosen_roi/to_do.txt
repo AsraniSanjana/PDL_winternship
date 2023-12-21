@@ -1,6 +1,8 @@
 integrate the polyzone and roi files in final_mix file
 integrate with sirs code of custom greetings, ref: https://github.com/YashHajare/Face-Recognition-python-Windows-Raspberry-Pi
 make a gui for this
+add a count feature: #objs inside the selected roi
+an #in objs #out objs visualization
 
 
 how to run:
