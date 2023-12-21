@@ -1,8 +1,20 @@
 integrate the polyzone and roi files in final_mix file
-integrate with sirs code of custom greetings
+integrate with sirs code of custom greetings, ref: https://github.com/YashHajare/Face-Recognition-python-Windows-Raspberry-Pi
 make a gui for this
 
 
 how to run:
 run the polyzone file first to select the roi and get the coords
 put the coords in that roi.py file 
+
+
+sirs file how to run:
+create a dataset folder: empty initially
+put the trainer.yml file inside a new folder called trainer
+refer to the fileStructure.jpg file
+click on main_name.py and run it using python IDE.
+make sure the names.txt gets updated properly, like a list of people who uve trained ur model w
+click somewhere on the op window and press q to create a name for someone. it gets saved to names.txt, new name on new line
+
+
+
