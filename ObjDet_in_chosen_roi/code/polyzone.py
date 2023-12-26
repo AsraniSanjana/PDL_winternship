@@ -1,3 +1,4 @@
+# run this code to get the coords of area/roi u want to do objdet in 
 import torch
 import cv2
 import numpy as np
