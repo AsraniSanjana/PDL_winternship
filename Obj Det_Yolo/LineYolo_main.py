@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from tracker import*
 import cvzone
 
-model = YOLO('../yolov8s.pt')  # my pretrained model
+model = YOLO('yolov8s.pt')  # my pretrained model
 # model = YOLO("yolov8x.pt")
 
 
@@ -17,12 +17,12 @@ def RGB(event, x, y, flags, param):
 
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
-cap = cv2.VideoCapture('vids/people.mp4')
+cap = cv2.VideoCapture('people.mp4')
 # cap = cv2.VideoCapture(0)
 
 # cap = cv2.VideoCapture(0)
 
-my_file = open("D:\PDL\line_in_out_people counter\line_yolo\coco.txt", "r")
+my_file = open("coco.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
@@ -50,6 +50,7 @@ while True:
     frame = cv2.resize(frame, (1250, 900))
 
     results = model.predict(frame)
+    print(results)
     
     a = results[0].boxes.data
     print(a)
