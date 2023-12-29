@@ -26,7 +26,7 @@ def POINTS(event, x, y, flags, param):
 cv2.namedWindow('ROI')
 cv2.setMouseCallback('ROI', POINTS)
 
-cap = cv2.VideoCapture('vids/people.mp4')  # pre-recorded video
+cap = cv2.VideoCapture('people.mp4')  # pre-recorded video
 # cap = cv2.VideoCapture(0) # using real-time camera
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
