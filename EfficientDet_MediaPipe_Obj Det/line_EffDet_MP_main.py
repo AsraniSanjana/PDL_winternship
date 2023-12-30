@@ -32,13 +32,6 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     options = vision.ObjectDetectorOptions(base_options=base_options, score_threshold=0.3)
     detector = vision.ObjectDetector.create_from_options(options)
 
-    cy1, cy2 = 250, 310
-    offset = 6
-    tracker = Tracker()
-
-    counter1 = []
-    counter2 = []
-
     # while cap.isOpened():
     #     success, image = cap.read()
     #     count += 1
@@ -67,11 +60,6 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
         image = utils.visualize(image, detection_result)
 
         # print(detection_result)
-        
-
-
-
-
         # Calculate the FPS
         if counter % fps_avg_frame_count == 0:
             end_time = time.time()
