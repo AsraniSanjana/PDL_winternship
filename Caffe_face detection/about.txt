@@ -1,0 +1,14 @@
+ref vid: https://youtu.be/o3EXBpMGdxM?feature=shared
+
+refer to:
+https://github.com/smahesh29/Gender-and-Age-Detection/tree/master
+
+and download:
+age_deploy.prototxt
+age_net.caffemodel
+gender_deploy.prototxt
+gender_net.caffemodel
+opencv_face_detector.pbtxt
+opencv_face_detector_uint8.pb
+
+running the code generates a "haarcascade_frontalface_default.xml" file 
