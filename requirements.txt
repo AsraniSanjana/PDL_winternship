@@ -1,7 +1,15 @@
 Get Python installer from https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe (Add to Path)
+
+You can check your installed packages at C:\Users\Admin\AppData\Local\Programs\Python\Python310\Lib\site-packages (modify the path according to your system)
+
 Get Libraries from https://pypi.org/
+(if youre working on a cli linux system, copy these, paste em by right clicking on terminal)
 
 pip install opencv-python
 pip install mediapipe
 pip install cvzone
 pip install argparse
+pip install torch
+pip install pandas
+pip install requests
+pip install ultralytics
