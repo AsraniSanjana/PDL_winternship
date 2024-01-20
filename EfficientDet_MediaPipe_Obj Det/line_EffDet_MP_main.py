@@ -15,7 +15,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     counter, fps = 0, 0
     count = 0
     start_time = time.time()
-    cap = cv2.VideoCapture('test2.mp4')
+    cap = cv2.VideoCapture('people.mp4')
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
