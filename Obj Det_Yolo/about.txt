@@ -1,0 +1,12 @@
+to detect object xyz
+change code at line number 20 in LineYolo_main.py: the video file 
+then at line no.68, change the class name for that object.
+
+(yolo files mei class specific code is inside the main files)
+
+(efficientdet code mei class specific code is inside utils.py)
+
+the tracker.py is to assign an id to each object detected, so that it can be counted if he/she has crossed the line yet or not.
+
+
+Ref: FREEDOM TECH, repo: https://youtu.be/xTH4g-W946Q?feature=shared
