@@ -15,7 +15,9 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     counter, fps = 0, 0
     count = 0
     start_time = time.time()
-    cap = cv2.VideoCapture('people.mp4')
+    # if ur using an external webcam, w=disable the internal webcam. 
+    # if error: camera index out of bounds, issue is u have disabled all cameras
+    cap = cv2.VideoCapture('plane.mp4')
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
