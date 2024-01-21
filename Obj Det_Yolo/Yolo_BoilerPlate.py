@@ -14,7 +14,6 @@ def RGB(event, x, y, flags, param):
         point = [x, y]
         print(point)
   
-        
 
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
@@ -77,8 +76,10 @@ while True:
         cy=int(y3+y4)//2
         cv2.circle(frame,(cx,cy),4,(255,0,255),-1)
         
-    cv2.line(frame,(3,194),(1018,194),(0,255,0),2)
-    cv2.line(frame,(5,220),(1019,220),(0,255,255),2)
+    # cv2.line(frame,(3,194),(1018,194),(0,255,0),2)
+    # cv2.line(frame,(5,220),(1019,220),(0,255,255),2)
+   cvzone.putTextRect(frame, f'{id}', (x3, y3), 1, 2, (0, 0, 255))  # Red text
+           
    
 
     cv2.imshow("RGB", frame)
