@@ -1,0 +1,12 @@
+# tflite model from: https://www.kaggle.com/models/tensorflow/efficientdet/frameworks/tfLite/variations/lite0-detection-metadata
+# ref vid: https://youtu.be/3YqbO2AlepM?si=Dvh4QkDunHgql2IW
+
+the code inside the main file to be run stays the same generic.
+the code inside utils changes.
+change the name of any of the utils_for_so&so file to utils.py before running the main file.
+
+for any xyz class, 
+change the classname on line no. 47 in utils.py and line no. 20 for filename in main.py
+utils_for_LinePeopleCount
+
+more vid files to test: https://mega.nz/file/99MkRQKT#xVlY_-NpgzHQSTWFYtOKnKrVuWt5PwKHrFdFPDq5pRc
