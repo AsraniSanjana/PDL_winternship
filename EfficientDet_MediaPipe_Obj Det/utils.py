@@ -1,3 +1,4 @@
+"""Utility functions to display the pose detection results."""
 import cv2
 import numpy as np
 from tracker import*
@@ -72,7 +73,8 @@ def visualize(
   b=(len(area1_c))
   print("# people moving down: "+str(a))
   print("# people moving up: "+str(b))
-
+  cv2.rectangle(image, (x,y),(x1,y1), (0,0,255), 3) 
+ 
   cvzone.putTextRect(image, f'moving Up: {b}', (20, 174), 1, 3, (255, 255, 255), 2, cv2.LINE_AA)  # White text
   cvzone.putTextRect(image, f'moving Down: {a}', (20, 250), 1, 3, (255, 255, 255), 2, cv2.LINE_AA)  # White text
 
