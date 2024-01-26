@@ -1,0 +1,5 @@
+before running the simulation for any component, just make sure
+
+1. You have the library downloaded (links are all in my doc file)
+2. You have the .hex location to be provided in arduino's program file
+3. put the .hex of that component if required.
