@@ -11,3 +11,8 @@ for rpi:
 create firmware project -> family: rpi
 
 rename the python filenames for the corresponding project to main.py
+
+
+for rpicam:
+
+create flowchart project -> family: rpi (compiler: visual designer for rpi)
