@@ -4,15 +4,16 @@ before running the simulation for any component, just make sure
 2. You have the .hex location to be provided in arduino's program file
 3. put the .hex of that component if required.
 
+--------------------------------------------------------------------------------------------------
 
-
-for rpi:
+for rpi: ref: https://youtu.be/xy4VsU2RGMA?feature=shared
 
 create firmware project -> family: rpi
 
 rename the python filenames for the corresponding project to main.py
 
+--------------------------------------------------------------------------------------------------
 
-for rpicam:
+for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
