@@ -9,8 +9,7 @@ file: rpi_led
 for rpi: ref: https://youtu.be/xy4VsU2RGMA?feature=shared  (led blink using code)
 
 create firmware project -> family: rpi
-
-(rename the python filenames for the corresponding project to main.py)
+(you just need to download the project file, the main.py or even the flowcharts are inside it by itself.)
 
 --------------------------------------------------------------------------------------------------
 folder: rpicam_flowchart_simulation
