@@ -6,7 +6,7 @@ before running the simulation for any component, just make sure
 
 --------------------------------------------------------------------------------------------------
 
-for rpi: ref: https://youtu.be/xy4VsU2RGMA?feature=shared
+for rpi: ref: https://youtu.be/xy4VsU2RGMA?feature=shared  (led blink using code)
 
 create firmware project -> family: rpi
 
@@ -14,19 +14,19 @@ rename the python filenames for the corresponding project to main.py
 
 --------------------------------------------------------------------------------------------------
 
-for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared
+for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared (display statis img when started, capture when btn pressed)
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
 
 --------------------------------------------------------------------------------------------------
-
-for rpicam: ref: https://youtu.be/hpwmnw_qwkA?feature=shared
+(the modifications in code wont save, not working)
+for rpicam: ref: https://youtu.be/hpwmnw_qwkA?feature=shared (capture when btn pressed)
 
 create firmware project -> family: rpi
 
 --------------------------------------------------------------------------------------------------
 
-for iot-rpicam: ref: https://youtu.be/yliZvw5ffd8?feature=shared
+for iot-rpicam: ref: https://youtu.be/yliZvw5ffd8?feature=shared (capture when btn pressed)
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
 
