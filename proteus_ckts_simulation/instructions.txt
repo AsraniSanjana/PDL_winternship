@@ -13,21 +13,37 @@ create firmware project -> family: rpi
 
 --------------------------------------------------------------------------------------------------
 folder: rpicam_flowchart_simulation
-for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared (display statis img when started, capture when btn pressed)
+for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared (display static img when started, capture when btn pressed)
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
+setup mei static img, loop mei btn click logic
 
 --------------------------------------------------------------------------------------------------
 file: rpicam-firmware-Code
 (the modifications in code wont save, not working)
 for rpicam: ref: https://youtu.be/hpwmnw_qwkA?feature=shared (capture when btn pressed)
 
-create firmware project -> family: rpi
+create firmware project -> family: rpi4
 
 --------------------------------------------------------------------------------------------------
 file: iot-RPIcam-flowchart
-for iot-rpicam: ref: https://youtu.be/yliZvw5ffd8?feature=shared (capture when btn pressed)
+for iot-rpicam: ref: https://youtu.be/29ttM5P6lnY?feature=shared (capture when btn pressed)
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
+setup, loop and btn flowcharts
+
+--------------------------------------------------------------------------------------------------
+file: RPI-firmware-L293Ddcmotor
+ref: https://youtu.be/yliZvw5ffd8?feature=shared
+create firmware project -> rpi3
+
+==================================================================================================
+file:
+ref: https://youtu.be/MoZCyv8zQHQ?feature=shared
+
+
+--------------------------------------------------------------------------------------------------
+
+
 
 
