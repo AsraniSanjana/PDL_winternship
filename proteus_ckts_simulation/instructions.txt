@@ -17,3 +17,17 @@ rename the python filenames for the corresponding project to main.py
 for rpicam: ref: https://youtu.be/A-fARGHU_YM?feature=shared
 
 create flowchart project -> family: rpi (compiler: visual designer for rpi)
+
+--------------------------------------------------------------------------------------------------
+
+for rpicam: ref: https://youtu.be/hpwmnw_qwkA?feature=shared
+
+create firmware project -> family: rpi
+
+--------------------------------------------------------------------------------------------------
+
+for iot-rpicam: ref: https://youtu.be/yliZvw5ffd8?feature=shared
+
+create flowchart project -> family: rpi (compiler: visual designer for rpi)
+
+
