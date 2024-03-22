@@ -1,4 +1,6 @@
 # every gif acts as a fn, so i can create a sequence of actions for the cat to do.
+# making a .exe file and a setup installer for this w the cmd: python -m eel desktop-pet.py cat --noconsole
+# rename this file to desktop-pet.py before the above cmd..
 import tkinter as tk
 from PIL import Image, ImageTk, ImageSequence
 import time
